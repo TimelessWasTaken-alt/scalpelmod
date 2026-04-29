@@ -1,0 +1,83 @@
+{
+  "mod_elements": [
+    {
+      "name": "Scalpel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "scalpel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scalpelmod/models/item/scalpel.json",
+          "src/main/java/net/timelesswastaken/scalpelmod/item/ScalpelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ScalpelMod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scalpel_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ScalpelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scalpel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scalpelmod/recipes/scalpel_recipe.json",
+          "src/main/resources/data/scalpelmod/advancements/recipes/scalpel_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.scalpelmod.scalpel": "Scalpel",
+      "item_group.scalpelmod.scalpel_mod": "ScalpelMod"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/timelesswastaken/scalpelmod/init/ScalpelmodModItems.java",
+      "src/main/java/net/timelesswastaken/scalpelmod/init/ScalpelmodModTabs.java",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/timelesswastaken/scalpelmod/ScalpelmodMod.java",
+      "src/main/resources/META-INF/accesstransformer.cfg"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "scalpelmod",
+    "modName": "ScalpelMod",
+    "version": "1.0.0",
+    "description": "A funny utility mod.",
+    "author": "TimelessWasTaken",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "scalpelmod",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.timelesswastaken.scalpelmod"
+  },
+  "mcreatorVersion": 202500345720
+}
